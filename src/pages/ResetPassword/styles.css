@@ -1,14 +1,14 @@
-.header {
+.header-3 {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 90px;
-    background-color: aquamarine;
+    background-color: rgb(255, 104, 104);
     border: 1px groove;
 }
 
-.caixa {
-    background-color: aquamarine;
+.caixa-3 {
+    background-color: rgb(255, 104, 104);
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -17,40 +17,29 @@
     border: 1px groove;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 
-.caixa2 {
-    display: flex;
-    width: 250px;
-    background-color: aquamarine;
-    margin: auto;
-    margin-top: 20px;
-    text-align: center;
-    padding: 5px;
-    border: 1px groove;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.email {
+.email-3 {
     margin-top: 15px;
     text-align: center;
-}
-
-.senha {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.login {
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.esqueci {
-    margin-right: 5px;
+.caixa2-3 {
+    display: flex;
+    width: 250px;
+    background-color: rgb(255, 104, 104);
+    margin: auto;
+    margin-top: 15px;
+    border: 1px groove;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.registrar {
-    margin-left: 5px;
+.voltar {
+    text-align: center;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }

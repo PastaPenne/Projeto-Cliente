@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { } from 'react'
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 class UserLogin extends React.Component {
@@ -6,14 +7,28 @@ class UserLogin extends React.Component {
         return (
             <>
                 <div className="header">
-                    <h1>Nome do Site</h1>
+                    <h1>Nome e Logo do Site</h1>
+                    <h2>Entrar no "nome"</h2>
                 </div>
 
                 <div className="caixa">
-                    <input name="email" placeholder="E-mail"></input>
-                    <input name="senha" placeholder="Senha"></input>
-                    <button type="button" className="login">Login</button>
-                    <button type="button" className="registro">Registre-se</button>
+                    <input className="email" name="email" placeholder="E-mail:"></input>
+                    <input className="senha" name="senha" placeholder="Senha:"></input>
+                    <button type="button" className="login">Entre agora</button>
+                </div>
+
+                <div className="caixa2">
+                    <div className="esqueci">
+                        <Link to={{ pathname: '/reset_password' }}>
+                            Esqueceu sua senha?
+                        </Link>
+                    </div>
+                     ·
+                    <div className="registrar">
+                        <Link to={{ pathname: '/register' }}>
+                            Novo por aqui?
+                        </Link>
+                    </div>
                 </div>
 
 
