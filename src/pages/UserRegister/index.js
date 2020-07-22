@@ -14,16 +14,16 @@ class UserRegister extends React.Component {
                 <div className="caixa-2">
                     <input className="email-2" name="email" placeholder="E-mail:"></input>
                     <input className="senha-2" name="senha" placeholder="Senha:"></input>
-                    <button type="button" className="cadastro-2">Cadastre-se</button>
+                    <button type="button" className="cadastro">Cadastre-se</button>
                 </div>
 
                 <div className="caixa2-2">
-                    <div className="esqueci">
+                    <div className="reset">
                         <Link to={{ pathname: '/reset_password' }}>
                             Esqueceu sua senha?
                         </Link>
                     </div>
-                     ·
+                     •
                     <div className="registrar">
                         <Link to={{ pathname: '/' }}>
                             Voltar ao login

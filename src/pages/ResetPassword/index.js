@@ -8,12 +8,12 @@ class ResetPassword extends React.Component {
             <>
                 <div className="header-3">
                     <h1>Nome e Logo do Site</h1>
-                    <h2>Problemas para entrar na conta</h2>
+                    <h2>Problemas para entrar na conta?</h2>
                 </div>
 
                 <div className="caixa-3">
                     <input className="email-3" name="email" placeholder="E-mail:"></input>
-                    <button type="button" className="reset">Recuperar minha senha</button>
+                    <button type="button" className="button_reset">Recuperar minha senha</button>
                 </div>
 
                 <div className="caixa2-3">

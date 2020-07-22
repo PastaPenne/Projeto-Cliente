@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+  
 .header {
     display: flex;
     flex-direction: column;
@@ -5,52 +10,62 @@
     margin-top: 90px;
     background-color: aquamarine;
     border: 1px groove;
+    padding: 20px;
 }
 
 .caixa {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 350px;
+    height: 200px;
     margin: auto;
-    margin-top: 90px;
+    margin-top: 85px;
     border: 1px groove;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
 .caixa2 {
     display: flex;
-    width: 250px;
+    width: 350px;
     background-color: aquamarine;
     margin: auto;
     margin-top: 20px;
-    text-align: center;
-    padding: 5px;
+    justify-content: center;
+    padding: 20px;
     border: 1px groove;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .email {
     margin-top: 15px;
     text-align: center;
+    outline: none;
+    height: 30px;
+    border: 1px groove;
 }
 
 .senha {
     margin-top: 15px;
     text-align: center;
+    outline: none;
+    height: 30px;
+    border: 1px groove;
 }
 
-.login {
+.button_login {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.esqueci {
-    margin-right: 5px;
+    height: 35px;
+    border: 1px groove;
+    cursor: pointer;
 }
 
 .registrar {
     margin-left: 5px;
+}
+
+.reset {
+    margin-right: 5px;
 }

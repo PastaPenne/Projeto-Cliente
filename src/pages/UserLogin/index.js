@@ -14,16 +14,16 @@ class UserLogin extends React.Component {
                 <div className="caixa">
                     <input className="email" name="email" placeholder="E-mail:"></input>
                     <input className="senha" name="senha" placeholder="Senha:"></input>
-                    <button type="button" className="login">Entre agora</button>
+                    <button type="button" className="button_login">Entre agora</button>
                 </div>
 
                 <div className="caixa2">
-                    <div className="esqueci">
+                    <div className="reset">
                         <Link to={{ pathname: '/reset_password' }}>
                             Esqueceu sua senha?
                         </Link>
                     </div>
-                     ·
+                     •
                     <div className="registrar">
                         <Link to={{ pathname: '/register' }}>
                             Novo por aqui?
