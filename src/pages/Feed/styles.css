@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New';
+}
+
+.menu_sup {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    padding-left: 60px;
+    background-color: rgb(233, 139, 241);
+    border-bottom: 1px groove;
+}
+
+.title {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.search {
+    background-color: rgb(242, 176, 248);
+    margin-left: 250px;
+    border: 1px;
+    height: 40px;
+    width: 250px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    font-size: large;
+}
+
+.icons {
+    margin-left: 250px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

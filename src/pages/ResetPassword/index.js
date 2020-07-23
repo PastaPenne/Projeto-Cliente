@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { FiAnchor } from "react-icons/fi";
+
 import './styles.css'
 
 class ResetPassword extends React.Component {
@@ -7,8 +9,12 @@ class ResetPassword extends React.Component {
         return (
             <>
                 <div className="header-3">
-                    <h1>Nome e Logo do Site</h1>
-                    <h2>Problemas para entrar na conta?</h2>
+                    <section className="titulo">
+                        < FiAnchor size="40px" />
+                        <h1 className="title">Anchor</h1>
+                    </section>
+
+                    <h2>Recupere sua senha</h2>
                 </div>
 
                 <div className="caixa-3">
@@ -18,7 +24,7 @@ class ResetPassword extends React.Component {
 
                 <div className="caixa2-3">
                     <div className="voltar">
-                        <Link to={{ pathname: '/' }}>
+                        <Link style={{ textDecoration: 'none', color: 'black' }} to={{ pathname: '/' }}>
                             Voltar ao login
                         </Link>
                     </div>
