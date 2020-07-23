@@ -39,5 +39,46 @@
 .corpo {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.left {
+    background-color: aquamarine;
+    height: 800px;
+    width: 200px;
+    padding: 15px;
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(153, 193, 252);
+    height: 800px;
+    width: 700px;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.right {
+    background-color: rgb(255, 104, 104);
+    height: 800px;
+    width: 200px;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.post {
+    margin-top: 20px;
+    height: 500px;
+    width: 600px;
+    background-color: white;
+}
+
+.post2 {
+    margin-top: 20px;
+    height: 500px;
+    width: 600px;
+    background-color: white;
 }

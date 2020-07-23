@@ -24,15 +24,21 @@ class Feed extends React.Component {
                 <div className="corpo">
 
                     <div className="left">
-                        left
+                        Menu esquerdo
                     </div>
 
                     <div className="meio">
-                        meio
+                        Feed de publicações
+                        <div className="post">
+                            Post 1
+                        </div>
+                        <div className="post2">
+                            Post 2
+                        </div>
                     </div>
 
                     <div className="right">
-                        right
+                        Menu direito
                     </div>
 
                 </div>
